@@ -1,5 +1,9 @@
 import './App.css';
 import About from './components/About';
+import Project from './components/Project'
+import Skills from './components/Skills'
+import Nav from './components/Nav'
+import Contact from './components/Contact'
 // import Header from './components/Header';
 
 
@@ -7,17 +11,20 @@ import About from './components/About';
 function App() {
   return (
     <div className="App">
-      {/* <header className="App-header">
-        
-      </header> */}
+      <header className="header">
+        <Nav/> 
+      </header> 
       <main>
       <About/>
       {/* <Header/>
-      <Footer/>
+      <Footer/> */}
       <Project/>
       <Skills/>
-      <Contact/>
-      <Nav/> */}
+      <footer className="footer">
+  <Contact/> 
+      </footer >
+      
+      
       </main>
     </div>
   );
