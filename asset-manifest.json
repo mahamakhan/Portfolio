@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.44addf71.css",
-    "main.js": "/portfolio/static/js/main.289d4870.js",
+    "main.css": "/portfolio/static/css/main.45db084d.css",
+    "main.js": "/portfolio/static/js/main.fc738984.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/project4.webm": "/portfolio/static/media/project4.ea67eac5ac137327690c.webm",
     "static/media/project2.webm": "/portfolio/static/media/project2.1dfe3ce8da5203abee89.webm",
+    "static/media/pic.jpg": "/portfolio/static/media/pic.c70b8d14cd84bb60f6c2.jpg",
     "static/media/project3.webm": "/portfolio/static/media/project3.579328d87dd1460be582.webm",
     "static/media/project1.webm": "/portfolio/static/media/project1.ff74792149590aef1c0a.webm",
-    "static/media/white.jpeg": "/portfolio/static/media/white.2e30ab47a6ea403cde7b.jpeg",
+    "static/media/MahamAlmizanKhanResume.pdf": "/portfolio/static/media/MahamAlmizanKhanResume.05a60a8806f77bea5d3b.pdf",
     "index.html": "/portfolio/index.html",
-    "main.44addf71.css.map": "/portfolio/static/css/main.44addf71.css.map",
-    "main.289d4870.js.map": "/portfolio/static/js/main.289d4870.js.map",
+    "main.45db084d.css.map": "/portfolio/static/css/main.45db084d.css.map",
+    "main.fc738984.js.map": "/portfolio/static/js/main.fc738984.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.44addf71.css",
-    "static/js/main.289d4870.js"
+    "static/css/main.45db084d.css",
+    "static/js/main.fc738984.js"
   ]
 }
