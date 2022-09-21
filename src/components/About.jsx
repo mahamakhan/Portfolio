@@ -1,13 +1,16 @@
-import picture from '../media/white.jpeg'
+import picture from '../media/pic.jpg'
 
 
 const About = ()=> {
     return(
         <div>
             <h1>About</h1>
-            <img width={200} src={picture} alt='mypic'/>
-           
+            
+            <div className='about'>
+            <img className='mypic' src={picture} alt='mypic'/>
             <h4>I am a Full-stack web developer with a background in Biotechnology.</h4>
+           
+        </div>
         </div>
         
     )

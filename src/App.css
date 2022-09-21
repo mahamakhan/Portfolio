@@ -1,7 +1,7 @@
 .App {
   text-align: center;
-  /* background-color: #192841; */
-  background-image: url('https://media.istockphoto.com/photos/blue-abstract-background-or-texture-picture-id1138395421?b=1&k=20&m=1138395421&s=612x612&w=0&h=3trRdit_qAdm1zhhREMPup6z0gNo8Hiik1Jo1KofMls=');
+  background-color: #192841;
+  /* background-image: url('https://media.istockphoto.com/photos/blue-abstract-background-or-texture-picture-id1138395421?b=1&k=20&m=1138395421&s=612x612&w=0&h=3trRdit_qAdm1zhhREMPup6z0gNo8Hiik1Jo1KofMls='); */
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -72,11 +72,14 @@ figcaption{
   font-size: calc(10px + 2vmin);
   color: rgb(0, 0, 0);
 }
-img{
-  box-shadow: 0 0 8px 8px #192841 inset;
+.mypic{
+  box-shadow: 0 0 18px 18px #01112f;
+  height: 600px;
+  width: 400px;
 }
 h1{
   color: rgb(129, 129, 129);
+  padding: 50px;
 }
 .App-link {
   color: #61dafb;
@@ -89,4 +92,24 @@ h1{
   to {
     transform: rotate(360deg);
   }
+}
+
+.about{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 200px;
+}
+.skills{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-left: 200px;
+  margin-right: 100px;
+  padding: 50px;
+}
+.icons{
+  size: 3em;
+  padding-top: 70px;
 }

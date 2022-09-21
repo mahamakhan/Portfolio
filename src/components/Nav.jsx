@@ -13,8 +13,8 @@ export default function Nav(){
             <li><NavLink to='/about'><SiAboutdotme color={"grey"}/></NavLink></li>
             <li><NavLink to='/projects'><FaCode color={"grey"}/></NavLink></li>
             <li><NavLink to='/skills'><GiSkills color={"grey"}/></NavLink></li>
-            <li><NavLink to='/resume'><GrDocument color={"grey"}/></NavLink></li>
-            <li><NavLink to='/contact'><GrContact color={"grey"}/></NavLink></li>
+            <li><NavLink to='/resume'><GrDocument color="grey"/></NavLink></li>
+            <li><NavLink to='/contact'><GrContact color="grey"/></NavLink></li>
             </ul>
         </div>
         </div>
