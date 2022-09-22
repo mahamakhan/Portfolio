@@ -6,6 +6,7 @@ import Skills from './components/Skills'
 import Nav from './components/Nav'
 import Contact from './components/Contact'
 import Resume from './components/Resume'
+import Home from './components/Home'
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/resume" element={<Resume />} />
         </Routes> */}
+        <section>
+          <Home />
+        </section>
         <section>
           <About />
         </section>

@@ -106,15 +106,17 @@ margin-top: 50px;
 .skills{
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  
+  padding: 50px;
   
 }
 .icons{
   padding: 70px;
 }
-.contact, .skills{
+.contact{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
   padding: 50px;
-  
 }
 section{
   margin-left: 200px;
@@ -126,3 +128,9 @@ section{
   align-items: center;
   justify-content: center;
 }
+/* .homepage{
+  background-image: url('./media/s10\ 2465.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+} */
