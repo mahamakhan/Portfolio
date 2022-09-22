@@ -1,5 +1,5 @@
 import './App.css'
-import { Routes, Route } from 'react-router-dom'
+// import { Routes, Route } from 'react-router-dom'
 import About from './components/About'
 import Project from './components/Project'
 import Skills from './components/Skills'
@@ -14,22 +14,28 @@ function App() {
         <Nav />
       </header>
       <main>
-        <Routes>
+        {/* <Routes>
           <Route path="/" element={<About />} />
           <Route path="/project" element={<Project />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/resume" element={<Resume />} />
-        </Routes>
-        <About />
-        {/* <Header/>
-      <Footer/> */}
-        <Project />
-        <Skills />
-        <footer className="footer">
+        </Routes> */}
+        <section>
+          <About />
+        </section>
+        <section>
+          <Project />
+        </section>
+        <section>
+          <Skills />
+        </section>
+        <section>
           <Resume />
+        </section>
+        <section>
           <Contact />
-        </footer>
+        </section>
       </main>
     </div>
   )

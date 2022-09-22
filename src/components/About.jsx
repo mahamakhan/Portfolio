@@ -3,7 +3,7 @@ import picture from '../media/pic.jpg'
 
 const About = ()=> {
     return(
-        <div>
+        <div className='aboutpage'>
             <h1>About</h1>
             
             <div className='about'>

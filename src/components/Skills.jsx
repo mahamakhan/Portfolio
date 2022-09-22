@@ -4,7 +4,7 @@ import {RiVuejsFill} from 'react-icons/ri'
 import {TbBrandJavascript} from 'react-icons/tb'
 export default function Skills(){
     return(
-        <div>
+        <div className="skillspage">
             <h1>Skills</h1>
         
         <div className="skills">

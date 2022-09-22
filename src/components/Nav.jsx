@@ -1,20 +1,22 @@
 import React from "react";
-import { NavLink } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 import { SiAboutdotme} from 'react-icons/si'
 import {FaCode} from 'react-icons/fa'
 import {GiSkills} from 'react-icons/gi'
-import {GrDocument, GrContact} from 'react-icons/gr'
+import {HiOutlineDocumentText} from 'react-icons/hi'
+import {MdContactPhone} from 'react-icons/md'
+import { Link } from "react-scroll";
 
 export default function Nav(){
     return(
         <div className="navbar">
         <div>
             <ul>
-            <li><NavLink to='/about'><SiAboutdotme color={"grey"}/></NavLink></li>
-            <li><NavLink to='/projects'><FaCode color={"grey"}/></NavLink></li>
-            <li><NavLink to='/skills'><GiSkills color={"grey"}/></NavLink></li>
-            <li><NavLink to='/resume'><GrDocument color="grey"/></NavLink></li>
-            <li><NavLink to='/contact'><GrContact color="grey"/></NavLink></li>
+            <li><Link to='aboutpage' spy={true} smooth={true} offset={-150} duration={500}><SiAboutdotme color={"grey"}/></Link></li>
+            <li><Link to='projectpage' spy={true} smooth={true} offset={-60} duration={500}><FaCode color={"grey"}/></Link></li>
+            <li><Link to='skillspage' spy={true} smooth={true} offset={-100} duration={500}><GiSkills color={"grey"}/></Link></li>
+            <li><Link to='resumepage' spy={true} smooth={true} offset={-100} duration={500}><HiOutlineDocumentText color="grey"/></Link></li>
+            <li><Link to='contactpage' spy={true} smooth={true} offset={-100} duration={500}><MdContactPhone color="grey"/></Link></li>
             </ul>
         </div>
         </div>
