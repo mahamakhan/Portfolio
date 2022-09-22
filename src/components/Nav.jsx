@@ -11,12 +11,12 @@ export default function Nav(){
     return(
         <div className="navbar">
         <div>
-            <ul>
-            <li><Link to='aboutpage' spy={true} smooth={true} offset={-150} duration={500}><SiAboutdotme color={"grey"}/></Link></li>
-            <li><Link to='projectpage' spy={true} smooth={true} offset={-60} duration={500}><FaCode color={"grey"}/></Link></li>
-            <li><Link to='skillspage' spy={true} smooth={true} offset={-100} duration={500}><GiSkills color={"grey"}/></Link></li>
-            <li><Link to='resumepage' spy={true} smooth={true} offset={-100} duration={500}><HiOutlineDocumentText color="grey"/></Link></li>
-            <li><Link to='contactpage' spy={true} smooth={true} offset={-100} duration={500}><MdContactPhone color="grey"/></Link></li>
+            <ul >
+            <li className="nav"><Link to='aboutpage' spy={true} smooth={true} offset={-150} duration={500}><SiAboutdotme color={"grey"}/></Link></li>
+            <li className="nav"><Link to='projectpage' spy={true} smooth={true} offset={-60} duration={500}><FaCode color={"grey"}/></Link></li>
+            <li className="nav"><Link to='skillspage' spy={true} smooth={true} offset={-100} duration={500}><GiSkills color={"grey"}/></Link></li>
+            <li className="nav"><Link to='resumepage' spy={true} smooth={true} offset={-100} duration={500}><HiOutlineDocumentText color="grey"/></Link></li>
+            <li className="nav"><Link to='contactpage' spy={true} smooth={true} offset={-100} duration={500}><MdContactPhone color="grey"/></Link></li>
             </ul>
         </div>
         </div>

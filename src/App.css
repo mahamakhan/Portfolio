@@ -25,7 +25,7 @@ ul{
   margin-top: 150px;
 }
 li{
-  padding-top: 50px;
+  margin-top: 50px;
 }
 .navbar {
    /* transform-origin: top left;
@@ -33,6 +33,10 @@ li{
   position: fixed;
   z-index: 1;
   width: 100vh;
+}
+.nav .active{
+  box-shadow: 0 0 18px 18px #01112fe8;
+  background-color: #01112fb7;
 }
 .projects{
   display: grid;
@@ -59,8 +63,8 @@ li{
   /* margin-left: 100px;
   margin-right: 100px; */
 }
-.projcard, video{
-  
+.down{
+ margin-top: 250px; 
 }
 .header, .footer {
   /* background-color: #163832; */
