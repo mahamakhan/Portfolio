@@ -116,7 +116,7 @@ margin-top: 50px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-content: center;
-  padding: 50px;
+  
 }
 section{
   margin-left: 200px;
@@ -128,9 +128,16 @@ section{
   align-items: center;
   justify-content: center;
 }
-/* .homepage{
+.home{
   background-image: url('./media/s10\ 2465.jpg');
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-} */
+  background-size:cover;
+  width: 100%;
+  margin-left: -1px;
+}
+.homepage h1{
+  color: #01112fbd;
+  font-size: xx-large;
+  font-weight: bolder;
+  margin-top: -50px;
+}

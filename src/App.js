@@ -22,7 +22,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/resume" element={<Resume />} />
         </Routes> */}
-        <section>
+        <section className="home">
           <Home />
         </section>
         <section>
