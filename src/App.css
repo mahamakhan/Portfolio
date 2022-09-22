@@ -14,11 +14,16 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* @media (max-width: 600px) {
+  main{
+    min-width: 500px;
+    
 }
+img{
+  width: 50px;
+}
+} */
+
 ul{
   list-style-type: none;
   float:left;
@@ -26,6 +31,7 @@ ul{
 }
 li{
   margin-top: 50px;
+  
 }
 .navbar {
    /* transform-origin: top left;
@@ -148,5 +154,5 @@ section{
   color: #01112fbd;
   font-size: xx-large;
   font-weight: bolder;
-  margin-top: -50px;
+
 }
