@@ -1,5 +1,5 @@
 import React from "react";
-import {SiExpress, SiDjango,SiHtml5,SiTailwindcss,SiCss3,SiReact,SiNodedotjs,SiMongodb,SiPython,SiPostgresql,SiSequelize,SiHeroku,SiGithub} from 'react-icons/si'
+import {SiLinux, SiExpress, SiDjango,SiHtml5,SiTailwindcss,SiCss3,SiReact,SiNodedotjs,SiMongodb,SiPython,SiPostgresql,SiSequelize,SiHeroku,SiGithub} from 'react-icons/si'
 import {RiVuejsFill} from 'react-icons/ri'
 import {TbBrandJavascript} from 'react-icons/tb'
 export default function Skills(){
@@ -67,6 +67,10 @@ export default function Skills(){
         <div>
         <SiGithub className="icons" size= '3em'/>
         <h3>Gtihub</h3>
+        </div>
+        <div>
+            <SiLinux className="icons" size= '3em'/>
+            <h3>Linux</h3>
         </div>
         </div>
         </div>
