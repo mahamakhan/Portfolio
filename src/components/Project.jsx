@@ -13,7 +13,7 @@ export default function Project(){
         <h1>Projects</h1>
         <div className="projects">
         <div className="projcard">
-         <video autoPlay width="400">
+         <video autoPlay width="300">
             <source src={project1}/>
         </video>
         <figcaption className="show">
@@ -25,7 +25,7 @@ export default function Project(){
         </figcaption>
         </div>
         <div className="projcard">
-        <video autoPlay width="400">
+        <video autoPlay width="300">
             <source src={project2}/>
         </video> 
         <figcaption className="show">
@@ -38,7 +38,7 @@ export default function Project(){
         </figcaption>
         </div>
         <div className="projcard">
-        <video autoPlay width="400">
+        <video autoPlay width="300">
             <source src={project3}/>
         </video> 
         <figcaption className="show">
@@ -53,7 +53,7 @@ export default function Project(){
         </figcaption>
         </div>
         <div className="projcard">
-        <video autoPlay width="400">
+        <video autoPlay width="300">
             <source src={project4}/>
         </video> 
         <figcaption className="show">
