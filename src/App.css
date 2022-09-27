@@ -34,8 +34,7 @@ li{
   
 }
 .navbar {
-   /* transform-origin: top left;
-  transform: translateX(100vw) rotate(90deg); */
+ 
   position: fixed;
   z-index: 1;
   width: 100vh;
@@ -47,14 +46,14 @@ li{
 .nav :hover{
  font-size: 1.5em;
 }
+
 .projects{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 50px;
   justify-content: center;
   align-items: center;
-  /* margin-left: 200px;
-  margin-right: 100px; */
+ 
   
 }
 
@@ -69,14 +68,15 @@ li{
   justify-content: center;
   align-items: center;
   background-color: #012c6c88;
-  /* margin-left: 100px;
-  margin-right: 100px; */
+ 
 }
+
 .down{
  margin-top: 250px; 
 }
+
 .header, .footer {
-  /* background-color: #163832; */
+ 
   
   display: flex;
   flex-direction: column;
@@ -87,10 +87,11 @@ li{
   box-shadow: 0 0 18px 18px #01112f;
   width: 300px;
 }
+
 h1{
  font-size: 60px;
  font-weight: bolder;
-  /* padding-bottom: 50px; */
+  
 }
 .App-link {
   color: #61dafb;
@@ -104,20 +105,21 @@ h1{
     transform: rotate(360deg);
   }
 }
+
 .github{
  margin-left: 50px;
 margin-top: 50px;
 }
+
 .about{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 50px;
+  gap: 10px;
   justify-content: center;
   align-items: center;
-  /* margin-left: 200px;
-  margin-right: 100px; */
-  /* padding: 50px; */
+
 }
+
 .skills{
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -133,6 +135,7 @@ margin-top: 50px;
   justify-content: center;
   
 }
+
 section{
   margin-left: 200px;
   margin-right: 100px;
@@ -143,6 +146,7 @@ section{
   align-items: center;
   justify-content: center;
 }
+
 .home{
   background-image: url('./media/s10\ 2465.jpg');
   background-repeat: no-repeat;
