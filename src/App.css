@@ -154,7 +154,12 @@ section{
   align-items: center;
   justify-content: center;
 }
-
+.resumepage{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+}
 .home{
   background-image: url('./media/s10\ 2465.jpg');
   background-repeat: no-repeat;
