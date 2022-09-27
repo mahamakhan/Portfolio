@@ -122,12 +122,13 @@ margin-top: 50px;
 
 .skills{
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  padding: 50px;
+  grid-template-columns: repeat(6, 1fr);
+  padding: 20px;
   
 }
 .icons{
-  padding: 70px;
+  padding: 50px;
+  padding-bottom: 0;
 }
 .contact{
   display: grid;
@@ -135,7 +136,14 @@ margin-top: 50px;
   justify-content: center;
   
 }
+.skills h3{
+  opacity: 0;
+  position: relative;
 
+}
+.skills h3:hover{
+ opacity: 1;
+}
 section{
   margin-left: 200px;
   margin-right: 100px;
